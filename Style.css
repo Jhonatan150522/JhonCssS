@@ -1,0 +1,29 @@
+*{
+    margin: 0ox;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: azure;
+}
+
+div.imagen1 img {
+    border-radius: 50xp;
+    filter: drop-shadow(0px 0px 20px rgb(0, 0, 0));
+}
+div.imagen2 img {
+    border-radius: 50xp;
+    filter: drop-shadow(0px 0px 20px red);
+}
+div.imagen3 img {
+    border-radius: 50xp;
+    filter: drop-shadow(0px 0px 20px blue );
+    padding:  0%;
+}
+
+div {
+    display: inline-block;
+    border: solid 5px black;
+
+}
