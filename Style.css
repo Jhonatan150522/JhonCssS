@@ -1,46 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-img {
-  width: 270px;
-  height: 300px;
-  margin: 50px auto;
-  padding-right: 50px;
-}
-
-.contenedor div {
-  display: inline-block;
-  margin: 10px;
-  border-radius: 20px;
-  background-color: #82828293;
-  padding-left: 40px;
-  width: 350px;
-  height: 500px;
+body{
+  text-align: center;
+  background: rgb(235,235,229);
+  background-image: linear-gradient(188deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1)
+  35%, rgba(0,212,255,1) 100%), url(characters/Fondo\ Ciudad.avif);background-size: cover;
+  
 }
 h1{
-  text-align: center;
-  font-size: 100px;
+  margin:20px 0;
+  font-family: "Bungee Tint", sans-serif;
 }
-h2{
-  text-align: center;
-  font-size: 50px ;
-  font-weight: bold;
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+
 }
-body {
-  background-image: url(characters/Fondo\ Ciudad.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  padding: 10px 2000px;
+.card{
+  width: 350px;
+  height: auto;
+  background-color: #c2c2c2;
+  border-radius: 6px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.cuerpo {
+  height: 450px;
+  margin: 14px 0;
 }
 
+.card img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  transition: 1s;
+}
 
-
-
-
-
-
+.card:hover {
+  background-color: rgb(146, 138, 138, 0.246);
+  transition: 1s;
+}
+.card:hover img {
+  transform:  translateX(10px) rotate(10deg) translateY(5px);
+  transition: 1s;
+} 
